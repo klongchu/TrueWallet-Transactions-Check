@@ -1,4 +1,4 @@
-# TrueWallet-Transactions-Checker
+# TrueWallet-Transactions-Check
 PHP ที่จะเช็คเลขอ้างอิงของ TrueWallet และสามารถเพิ่มพ้อยได้ถ้าหากเช็คเลขอ้างอิงสำเร็จ และสามารถป้องกันการปั้ม/แจ้งเลขอ้างอิงได้ด้วยการเก็บเลขอ้างอิงที่ถูกใช้แล้วไว้ในฐานข้อมูล
 # Requirements
 1. Basic Knowledge of PHP and MySQL
