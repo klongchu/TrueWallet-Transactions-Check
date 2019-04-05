@@ -22,7 +22,6 @@
         <button type="submit" name="submit" class="btn btn-primary">แจ้งเลขอ้างอิง</button>
     </form>
     <BR>
-//plz dont remove but nothing will happen if you remove
       <h6>TrueWallet Payment</h6>
       <h6>Made by <a href="https://github.com/MrTheBank">MrTheBank</a></h6>
       </div>
