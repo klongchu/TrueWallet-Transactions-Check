@@ -66,7 +66,7 @@ if ($token != null) {
         break;
       } else {
         echo "<script language=\"JavaScript\">
-                alert('ผิดพลาด เลข $ref ดังกล่าวไม่ถูกต้อง');
+                alert('ผิดพลาดเลขอ้างอิงดังกล่าวไม่ถูกต้อง');
                 window.history.go(-1);
               </script>";
         break;
