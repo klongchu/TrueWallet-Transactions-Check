@@ -22,8 +22,9 @@
         <button type="submit" name="submit" class="btn btn-primary">แจ้งเลขอ้างอิง</button>
     </form>
     <BR>
+//plz dont remove but nothing will happen if you remove
       <h6>TrueWallet Payment</h6>
-      <h6>Made by <a href="https://github.com/MrTheBank">MrTheBank</a></h6> //plz dont remove but nothing will happen if you remove
+      <h6>Made by <a href="https://github.com/MrTheBank">MrTheBank</a></h6>
       </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
