@@ -76,6 +76,6 @@ if ($token != null) {
   
   // Logout
   $tw->Logout($token);
-  mysql_close($mysqli);
+  mysqli_close($mysqli);
 }
 ?>
