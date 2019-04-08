@@ -1,4 +1,11 @@
 <?php
+//เข้าสู่ระบบ TrueWallet ด้วยเบอร์โทรศัพท์หรือไม่ (ใส่ "true" ถ้าใช้เบอร์โทรศัพท์ ใส่ "false" ถ้าใช้ E-Mail)
+$phone_login = true;
+
+//ใส่เบอร์โทรศัพท์ในการเข้าสู่ระบบ (เช่น 0xxxxxxxxx)
+$twtel = "TrueWallet Phone Tel.";
+//ใส่ PIN Code ในการเข้าสู่ระบบ
+$twtelpin = "PIN CODE";
 
 //ให้ใส่ E-Mail ของ Truemoney Wallet
 $twemail = "TrueWallet E-Mail";
