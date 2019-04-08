@@ -7,7 +7,11 @@ $tw = new WalletAPI();
 $ref = $_POST['wallet'];
 $member = $_POST['member'];
 // Login
-$token = $tw->GetToken($twemail, $twpassword);
+if ($phone_login == true) {
+  $token = $tw->GetToken($twtel, $twtelpin, 'phone');
+} else if ($phone_login == false) {
+  $token = $tw->GetToken($twemail, $twpassword);
+}
 
 //Connect to database
 $mysqli = new mysqli($dbhost, $dbuser, $dbpassword, $dbname);
