@@ -25,8 +25,8 @@ $mysqli = new mysqli($dbhost, $dbuser, $dbpassword, $dbname);
 if ($token != null) {
   
   // Transaction date range
-  $start_date = date('Y-m-d', strtotime('-3 days'));
-  $end_date = date('Y-m-d', strtotime('3 days'));
+  $start_date = date('Y-m-d', strtotime('-3 days')); //ย้อนหลัง 3 วัน
+  $end_date = date('Y-m-d', strtotime('1 days')); //ไม่ต้องปรับตรงนี้
   
   // Perform Fetch
   $activities = $tw->FetchActivities($token, $start_date, $end_date);
