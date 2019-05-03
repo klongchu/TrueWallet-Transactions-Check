@@ -25,7 +25,7 @@ $mysqli = new mysqli($dbhost, $dbuser, $dbpassword, $dbname);
 if ($token != null) {
   
   	// Perform topup request
-  	$tm = $tw->CashcardTopup($token, $cash);
+  	$tm = $tw->CashcardTopup($token, $card);
 	@$tx = $tm['transactionId'];
 
 	//Insert transaction history
