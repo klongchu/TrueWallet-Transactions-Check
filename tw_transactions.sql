@@ -12,6 +12,7 @@ CREATE TABLE `tw_transactions` (
   `id` int(11) NOT NULL,
   `name` varchar(50) DEFAULT NULL,
   `txn_id` varchar(50) DEFAULT NULL,
+  `type` varchar(50) DEFAULT NULL,
   `timestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
