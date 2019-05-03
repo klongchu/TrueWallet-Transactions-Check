@@ -31,7 +31,7 @@ if ($token != null) {
 	//Insert transaction history
 	$tw_history = "INSERT INTO tw_transactions (name, txn_id, type) VALUES ('". $member ."', '". $card ."', 'truemoney')";
 	//Add point to user
-	$addpoint = "UPDATE ". $tbname ." SET ". $point_field_name ." = ". $point_field_name ."+'". $tm['amount'] ."' WHERE ". $field_username ." = ". $member ." ";
+	$addpoint = "UPDATE ". $tbname ." SET ". $point_field_name ." = ". $point_field_name ."+'". $tmm[$tm['amount']] ."' WHERE ". $field_username ." = ". $member ." ";
 
 	if ($objResult2) {
         echo "<script language=\"JavaScript\">
@@ -41,7 +41,7 @@ if ($token != null) {
         break;
 	} elseif ($tx !== false && $tx !== null) {
         echo "<script language=\"JavaScript\">
-                alert('สำเร็จ ท่านได้รับพ้อยเป็นจำนวน ". $tm['amount'] ."');
+                alert('สำเร็จ ท่านได้รับพ้อยเป็นจำนวน ". $tmm[$tm['amount']] ." พ้อย');
                 window.history.go(-1);
               </script>";
         //Database เพิ่มประวัติการใช้เลขบัตรทรูมันนี่
