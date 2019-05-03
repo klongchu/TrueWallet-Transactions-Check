@@ -10,7 +10,7 @@ PHP ที่จะเช็คเลขอ้างอิงของ TrueWalle
 3. Upload everything except "tw_transactions.sql" into your host
 4. Done!
 # Example of this PHP script
-https://donation.maxnus.com/twtest/truewallet.php
+https://donation.maxnus.com/twtest
 # Credits
 1. [maythiwat/WalletAPI.php](https://github.com/maythiwat/WalletAPI.php)
 2. [Facebook Group: ไทย PHP](https://www.facebook.com/groups/134855003271201)
